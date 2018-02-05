@@ -1,0 +1,59 @@
+@charset "UTF-8";
+html {
+  height: 100%; }
+
+body {
+  font-family: microsoft yahei;
+  height: 100%;
+  background: #fff; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.insurance {
+  height: 100%;
+  background: #f7f6f6;
+  padding: 0 15px; }
+  .insurance .navbar {
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    font-size: 18px;
+    position: relative;
+    font-family: 黑体; }
+    .insurance .navbar a {
+      position: absolute;
+      left: -15px;
+      font-family: "宋体";
+      background: url(../images/arrow.png) 15px center no-repeat;
+      background-size: 8px;
+      width: 38px;
+      height: 100%; }
+  .insurance .header {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    margin-left: -15px;
+    text-align: center; }
+    .insurance .header img {
+      width: 100%; }
+    .insurance .header .content {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.2); }
+      .insurance .header .content span {
+        color: #f2504e; }
+      .insurance .header .content .title {
+        font-size: 25px;
+        padding-top: 52px; }
+      .insurance .header .content .desc {
+        font-size: 13px; }
